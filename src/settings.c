@@ -30,7 +30,7 @@ static char *settingsPath = "CheatDevicePS2.ini";
 
 static char *defaultBootPaths[] = {
     "mass:BOOT/BOOT.ELF",
-    "mass:BOOT/ESR.ELF",
+    "cdrom0:SCUS_974.72",
     "mc0:BOOT/BOOT.ELF",
     "mc1:BOOT/BOOT.ELF",
     "rom:OSDSYS"
