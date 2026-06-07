@@ -102,7 +102,7 @@ void startgameExecute(const char *path)
         while(sceCdGetDiskType() == 1) {}
         sceCdDiskReady(0);
         
-        int syscnfFile = open("cdrom0:\\SYSTEM.CNF;1", O_TEXT | O_RDONLY);
+        int syscnfFile = open("cdrom0:\\SYSTEM2.CNF;1", O_TEXT | O_RDONLY);
         if(!syscnfFile)
         {
             GS_BGCOLOUR = 0x1010B4; // red
